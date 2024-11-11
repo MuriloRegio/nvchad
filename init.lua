@@ -72,11 +72,11 @@ vim.api.nvim_create_autocmd("VimEnter", {
 
 
 
-vim.g.python_recommended_style = 0
+vim.g.python_recommended_style = 1
 
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = false
+vim.opt.expandtab = true
 
 
 local function map(mode, lhs, rhs, opts)
